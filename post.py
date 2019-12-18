@@ -9,7 +9,7 @@ class Post:
         self.has_been_posted = has_been_posted
     
     def serialize(self):
-        date = self.post_date.strftime("%Y-%m-%d %H:%M:%S")
+        date = self.post_date.strftime("2019-12-17 11:55:00")
         return {
             'image' : self.image,
             'description' : self.description,
